@@ -327,7 +327,7 @@ void setup() {
   pinMode(D6, OUTPUT);
 
   // Conéctate a la red Wi-Fi
-  WiFi.begin("MSA", "Li171020304050");
+  WiFi.begin("DNieves", "Pan112212");
   while (WiFi.status() != WL_CONNECTED) {
     delay(1000);
     Serial.println("Conectando a la red Wi-Fi...");
